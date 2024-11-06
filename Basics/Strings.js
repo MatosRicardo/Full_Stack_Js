@@ -33,8 +33,8 @@ let segundoNome = "Matos";
 // console.log(primeiroNome.includes("Ricardo"));
 
 //10. Trim (Remover espaços)
-let nomeCompleto = "   Ricardo Matos   ";
-console.log(nomeCompleto.trim());
+// let nomeCompleto = "   Ricardo Matos   ";
+// console.log(nomeCompleto.trim());
 
 //Exercicio
 // Crie uma variável chamada favActorFirstName e armazene o primeiro nome do seu ator favorito.
@@ -50,5 +50,7 @@ let favActorLastName = "Raynolds";
 let fullName = favActorFirstName.concat(" ", favActorLastName);
 let nomeMaior = fullName.toUpperCase();
 let nomeMenor = fullName.toLowerCase();
-let message = `Meu ator favorito é ${nomeMaior}`;
+let message = `Meu ator favorito é ${favActorFirstName}`;
 message += " Seu melhor melhor filme é DeadPool 3";
+
+console.log(message);

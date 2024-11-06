@@ -11,11 +11,11 @@
 
 let firstFavNum = 10;
 let secondFavNum = 20;
-console.log(firstFavNum > secondFavNum);
-console.log(firstFavNum < secondFavNum);
-console.log(firstFavNum >= secondFavNum);
-console.log(firstFavNum <= secondFavNum);
-console.log(firstFavNum === secondFavNum);
-console.log(firstFavNum == secondFavNum);
-console.log(firstFavNum !== secondFavNum);
-console.log(firstFavNum != secondFavNum);
+console.log(firstFavNum > secondFavNum); //maior
+console.log(firstFavNum < secondFavNum); //menor
+console.log(firstFavNum >= secondFavNum); // maior ou igual
+console.log(firstFavNum <= secondFavNum); //menor ou igual
+console.log(firstFavNum == secondFavNum); //igual
+console.log(firstFavNum === secondFavNum); // igual em valor e tipo
+console.log(firstFavNum != secondFavNum); // diferente ou igual
+console.log(firstFavNum !== secondFavNum); // diferente ou igual de valor e tipo

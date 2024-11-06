@@ -7,6 +7,7 @@
 // 6. Divida (`firstFavNum` e `secondFavNum`).
 // 7. Verifique (`firstFavNum Mod secondFavNum`).
 // 8. Verifique a potência de (`firstFavNum`).
+// 9. Lembrar também que temos incrementos e decrementos
 
 let numberOne = 10;
 let numberTwo = 20;
@@ -17,3 +18,7 @@ console.log(numberOne * numberTwo); // Multiplicação
 console.log(numberOne / numberTwo); // Divisão
 console.log(numberOne % numberTwo); // Resto da divisão
 console.log(numberOne ** numberTwo); //Potência
+
+let numberThree = 9;
+numberThree++;
+console.log(numberThree);

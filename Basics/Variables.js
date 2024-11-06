@@ -10,5 +10,4 @@ let name = "Ricardo";
 let whatDoYouWannaBecomeInYourLife = "programador";
 let gender = "Masculino";
 let github = "MatosRicardo";
-
-console.log(name, whatDoYouWannaBecomeInYourLife, gender, github);
+console.log(name, whatDoYouWannaBecomeInYourLife, gender, github);  //Podemos chamar varias variaveis de uma vez
